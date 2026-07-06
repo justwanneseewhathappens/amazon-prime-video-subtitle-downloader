@@ -19,6 +19,7 @@ Amazon Prime Video Subtitle Downloader (APVSD)
 Download every subtitle track from any Amazon Prime Video title — movies and full seasons — as a single ZIP, with SRT, TTML and VTT output, live progress, and SDH / CC / Forced detection.
 
 ✨ Features
+
 • One-click ZIP download of every subtitle track on the current title
 
 • Multi-format export: SRT, TTML and VTT bundled together
@@ -30,12 +31,17 @@ Download every subtitle track from any Amazon Prime Video title — movies and f
 • Live progress panel with per-track status and error reporting
 
 🌐 Compatibility
+
 • Chrome / Chromium (Brave, Arc, Opera, Vivaldi, …)
+
 • Microsoft Edge
+
 • Firefox
+
 • Safari (via Userscripts app)
 
 Userscript managers
+
 • Tampermonkey ✅ recommended
 • Violentmonkey ✅
 • Greasemonkey 4+ ✅
@@ -67,17 +73,28 @@ Click Download ZIP.
 You'll get Title - Language.srt (+ .ttml / .vtt) bundled in one ZIP.
 
 Whole season:
-• Enable Start season capture in the panel.
-• Open each episode of the season and let playback start for a second — the panel confirms Stored: SxxExx – Episode Title.
-• Repeat for every episode you want (order doesn't matter, duplicates are ignored).
-• Click Download season ZIP to get one archive with all captured episodes, correctly named.
-• Toggle capture off (buffer is kept until you download or clear it manually) or click Clear buffer to start over.
+
+1. Enable Start season capture in the panel.
+
+2. Open each episode of the season and let playback start for a second — the panel confirms Stored: SxxExx – Episode Title.
+
+3. Repeat for every episode you want (order doesn't matter, duplicates are ignored).
+
+4. Click Download season ZIP to get one archive with all captured episodes, correctly named.
+
+5. Toggle capture off (buffer is kept until you download or clear it manually) or click Clear buffer to start over.
 
 ❓ Troubleshooting
+
 • Panel is empty — press play on the title for a few seconds, then reopen the panel. Prime only serves subtitle manifests after playback initialises.
-• Season ZIP only has one episode — make sure Start season capture is enabled before opening each episode, and wait until you see the Stored: • confirmation before switching.
+
+• Season ZIP only has one episode — make sure Start season capture is enabled before opening each episode, and wait until you see the Stored: confirmation before switching.
+
 • Wrong episode name — refresh the episode page and let playback start; metadata is re-fetched from Prime's detail API on each new playback.
+
 • Chrome blocks install — download the .user.js file and drag it into Tampermonkey's Installed userscripts tab.
 
+
 📄 License
+
 • MIT — free to use, modify and redistribute. Not affiliated with Amazon or Prime Video.
