@@ -15,8 +15,11 @@ Download every subtitle track from any Amazon Prime Video title — movies and f
 🌐 Compatibility
 
 • Chrome / Chromium (Brave, Arc, Opera, Vivaldi, …)
+
 • Microsoft Edge
+
 • Firefox
+
 • Safari (via Userscripts app)
 
 Userscript managers
